@@ -1,0 +1,18 @@
+{
+  "$GMPath":"",
+  "%Name":"P_Diago",
+  "closed":false,
+  "kind":0,
+  "name":"P_Diago",
+  "parent":{
+    "name":"Paths",
+    "path":"folders/Paths.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":22016.0,"y":4608.0,},
+    {"speed":100.0,"x":18432.0,"y":5632.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

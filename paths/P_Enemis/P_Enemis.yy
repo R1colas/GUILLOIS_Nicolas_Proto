@@ -1,0 +1,18 @@
+{
+  "$GMPath":"",
+  "%Name":"P_Enemis",
+  "closed":false,
+  "kind":0,
+  "name":"P_Enemis",
+  "parent":{
+    "name":"Paths",
+    "path":"folders/Paths.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":13824.0,"y":3584.0,},
+    {"speed":100.0,"x":10752.0,"y":3584.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

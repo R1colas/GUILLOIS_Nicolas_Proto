@@ -63,17 +63,19 @@ var l67E3C6ED_0 = false;l67E3C6ED_0 = instance_exists(O_Timestop);if(l67E3C6ED
 /// @DnDAction : YoYo Games.Collisions.If_Object_At
 /// @DnDVersion : 1.1
 /// @DnDHash : 3E94517E
-/// @DnDInput : 2
+/// @DnDInput : 3
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y" "3"
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "target" ""
 /// @DnDArgument : "target_temp" "1"
 /// @DnDArgument : "object" "O_Collision"
-/// @DnDArgument : "object_1" "O_Collision_1"
+/// @DnDArgument : "object_1" "O_Bloc_Test_Lent"
+/// @DnDArgument : "object_2" "O_Poichon_Manager"
 /// @DnDSaveInfo : "object" "O_Collision"
-/// @DnDSaveInfo : "object_1" "O_Collision_1"
-var l3E94517E_0 = instance_place(x + 0, y + 3, [O_Collision, O_Collision_1]);if ((l3E94517E_0 > 0)){	/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDSaveInfo : "object_1" "O_Bloc_Test_Lent"
+/// @DnDSaveInfo : "object_2" "O_Poichon_Manager"
+var l3E94517E_0 = instance_place(x + 0, y + 3, [O_Collision, O_Bloc_Test_Lent, O_Poichon_Manager]);if ((l3E94517E_0 > 0)){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 728D8FC4
 	/// @DnDParent : 3E94517E
@@ -113,7 +115,15 @@ var l106EA7BA_0;l106EA7BA_0 = keyboard_check(ord("K"));if (l106EA7BA_0){	///
 	/// @DnDArgument : "imageind" ""
 	/// @DnDArgument : "spriteind" "S_Attaque_Saut"
 	/// @DnDSaveInfo : "spriteind" "S_Attaque_Saut"
-	sprite_index = S_Attaque_Saut;}
+	sprite_index = S_Attaque_Saut;
+
+	/// @DnDAction : YoYo Games.Instances.Set_Alarm
+	/// @DnDVersion : 1
+	/// @DnDHash : 640B0E44
+	/// @DnDParent : 106EA7BA
+	/// @DnDArgument : "steps" "15"
+	/// @DnDArgument : "alarm" "3"
+	alarm_set(3, 15);}
 
 /// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
 /// @DnDVersion : 1
@@ -185,19 +195,13 @@ var l7BBA5711_0;l7BBA5711_0 = keyboard_check(ord("Q"));if (!l7BBA5711_0){	//
 /// @DnDVersion : 1
 /// @DnDHash : 1F72DD2C
 /// @DnDInput : 2
-/// @DnDArgument : "object" "O_Collision"
-/// @DnDArgument : "object_1" "O_Collision_1"
+/// @DnDArgument : "object" "O_Bloc_Test_Lent"
+/// @DnDArgument : "object_1" "O_Collision"
 /// @DnDArgument : "xvel" "hspeed"
 /// @DnDArgument : "yvel" "ysp"
 /// @DnDArgument : "num_iterations" "4"
 /// @DnDArgument : "maxxmove" "-1"
 /// @DnDArgument : "maxymove" "-1"
-/// @DnDSaveInfo : "object" "O_Collision"
-/// @DnDSaveInfo : "object_1" "O_Collision_1"
-move_and_collide(hspeed, ysp, O_Collision, O_Collision_1,4,0,0,-1,-1);
-
-/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-/// @DnDVersion : 1
-/// @DnDHash : 12CE7B04
-/// @DnDArgument : "msg" "hspeed"
-show_debug_message(string(hspeed));
+/// @DnDSaveInfo : "object" "O_Bloc_Test_Lent"
+/// @DnDSaveInfo : "object_1" "O_Collision"
+move_and_collide(hspeed, ysp, O_Bloc_Test_Lent, O_Collision,4,0,0,-1,-1);

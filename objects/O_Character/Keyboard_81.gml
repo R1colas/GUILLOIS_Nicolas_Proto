@@ -24,17 +24,19 @@ hspeed += -walkspeed;
 /// @DnDAction : YoYo Games.Collisions.If_Object_At
 /// @DnDVersion : 1.1
 /// @DnDHash : 0A4C50CE
-/// @DnDInput : 2
+/// @DnDInput : 3
 /// @DnDArgument : "x" "2"
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y" "-32"
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "target" ""
 /// @DnDArgument : "object" "O_Collision"
-/// @DnDArgument : "object_1" "O_Collision_1"
+/// @DnDArgument : "object_1" "O_Bloc_Test_Lent"
+/// @DnDArgument : "object_2" "O_Poichon_Manager"
 /// @DnDSaveInfo : "object" "O_Collision"
-/// @DnDSaveInfo : "object_1" "O_Collision_1"
-var l0A4C50CE_0 = instance_place(x + 2, y + -32, [O_Collision, O_Collision_1]);if ((l0A4C50CE_0 > 0)){	/// @DnDAction : YoYo Games.Movement.Set_Speed
+/// @DnDSaveInfo : "object_1" "O_Bloc_Test_Lent"
+/// @DnDSaveInfo : "object_2" "O_Poichon_Manager"
+var l0A4C50CE_0 = instance_place(x + 2, y + -32, [O_Collision, O_Bloc_Test_Lent, O_Poichon_Manager]);if ((l0A4C50CE_0 > 0)){	/// @DnDAction : YoYo Games.Movement.Set_Speed
 	/// @DnDVersion : 1
 	/// @DnDHash : 5FD881DA
 	/// @DnDParent : 0A4C50CE
