@@ -23,21 +23,17 @@ hspeed += walkspeed;
 /// @DnDAction : YoYo Games.Collisions.If_Object_At
 /// @DnDVersion : 1.1
 /// @DnDHash : 6BCEC6D1
-/// @DnDInput : 4
-/// @DnDArgument : "x" "2"
+/// @DnDInput : 2
+/// @DnDArgument : "x" "1"
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y" "-32"
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "target" ""
 /// @DnDArgument : "object" "O_Collision"
-/// @DnDArgument : "object_1" "O_Collision_1"
-/// @DnDArgument : "object_2" "O_Bloc_Test_Lent"
-/// @DnDArgument : "object_3" "O_Poichon_Manager"
+/// @DnDArgument : "object_1" "O_Poichon_Manager"
 /// @DnDSaveInfo : "object" "O_Collision"
-/// @DnDSaveInfo : "object_1" "O_Collision_1"
-/// @DnDSaveInfo : "object_2" "O_Bloc_Test_Lent"
-/// @DnDSaveInfo : "object_3" "O_Poichon_Manager"
-var l6BCEC6D1_0 = instance_place(x + 2, y + -32, [O_Collision, O_Collision_1, O_Bloc_Test_Lent, O_Poichon_Manager]);if ((l6BCEC6D1_0 > 0)){	/// @DnDAction : YoYo Games.Movement.Set_Speed
+/// @DnDSaveInfo : "object_1" "O_Poichon_Manager"
+var l6BCEC6D1_0 = instance_place(x + 1, y + -32, [O_Collision, O_Poichon_Manager]);if ((l6BCEC6D1_0 > 0)){	/// @DnDAction : YoYo Games.Movement.Set_Speed
 	/// @DnDVersion : 1
 	/// @DnDHash : 0E802E4E
 	/// @DnDParent : 6BCEC6D1

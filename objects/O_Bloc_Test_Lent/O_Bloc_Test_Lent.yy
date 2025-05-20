@@ -30,7 +30,7 @@
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
     "name":"S_Bloc_Test",
     "path":"sprites/S_Bloc_Test/S_Bloc_Test.yy",

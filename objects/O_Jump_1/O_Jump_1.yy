@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite14",
-    "path":"sprites/Sprite14/Sprite14.yy",
+    "name":"S_Crevette",
+    "path":"sprites/S_Crevette/S_Crevette.yy",
   },
   "spriteMaskId":null,
   "visible":true,
