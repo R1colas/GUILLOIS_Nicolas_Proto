@@ -76,7 +76,7 @@ var l67E3C6ED_0 = false;l67E3C6ED_0 = instance_exists(O_Timestop);if(l67E3C6ED
 /// @DnDHash : 3E94517E
 /// @DnDInput : 3
 /// @DnDArgument : "x_relative" "1"
-/// @DnDArgument : "y" "5"
+/// @DnDArgument : "y" "51"
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "target" ""
 /// @DnDArgument : "target_temp" "1"
@@ -86,7 +86,7 @@ var l67E3C6ED_0 = false;l67E3C6ED_0 = instance_exists(O_Timestop);if(l67E3C6ED
 /// @DnDSaveInfo : "object" "O_Collision"
 /// @DnDSaveInfo : "object_1" "O_Bloc_Test_Lent"
 /// @DnDSaveInfo : "object_2" "O_Bloc_Test_Rapide"
-var l3E94517E_0 = instance_place(x + 0, y + 5, [O_Collision, O_Bloc_Test_Lent, O_Bloc_Test_Rapide]);if ((l3E94517E_0 > 0)){	/// @DnDAction : YoYo Games.Common.Variable
+var l3E94517E_0 = instance_place(x + 0, y + 51, [O_Collision, O_Bloc_Test_Lent, O_Bloc_Test_Rapide]);if ((l3E94517E_0 > 0)){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 728D8FC4
 	/// @DnDParent : 3E94517E
@@ -221,12 +221,9 @@ var l26C88549_0 = instance_place(x + 0, y + -20, [O_Bloc_Test_Lent, O_Bloc_Test_
 /// @DnDAction : YoYo Games.Movement.move_and_collide
 /// @DnDVersion : 1
 /// @DnDHash : 1F72DD2C
-/// @DnDArgument : "object" "O_Collision"
 /// @DnDArgument : "xvel" "hspeed"
 /// @DnDArgument : "yvel" "ysp"
-/// @DnDArgument : "num_iterations" "4"
-/// @DnDArgument : "maxxmove" "-1"
-/// @DnDArgument : "maxymove" "-1"
+/// @DnDArgument : "object" "O_Collision"
 /// @DnDSaveInfo : "object" "O_Collision"
 move_and_collide(hspeed, ysp, O_Collision,4,0,0,-1,-1);
 
