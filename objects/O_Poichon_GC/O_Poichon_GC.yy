@@ -29,7 +29,7 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
     "name":"S_Poichon_GC",
     "path":"sprites/S_Poichon_GC/S_Poichon_GC.yy",

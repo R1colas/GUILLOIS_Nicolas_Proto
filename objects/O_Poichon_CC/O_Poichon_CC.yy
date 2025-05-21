@@ -2,7 +2,10 @@
   "$GMObject":"",
   "%Name":"O_Poichon_CC",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":3,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_Character","path":"objects/O_Character/O_Character.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"O_Poichon_CC",
@@ -12,8 +15,8 @@
     "path":"folders/Objects.yy",
   },
   "parentObjectId":{
-    "name":"O_Poichon_Manager",
-    "path":"objects/O_Poichon_Manager/O_Poichon_Manager.yy",
+    "name":"O_Poichon_CC_1",
+    "path":"objects/O_Poichon_CC_1/O_Poichon_CC_1.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"S_Collision",
-    "path":"sprites/S_Collision/S_Collision.yy",
+    "name":"S_Tentacule",
+    "path":"sprites/S_Tentacule/S_Tentacule.yy",
   },
   "spriteMaskId":null,
   "visible":true,

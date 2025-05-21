@@ -11,7 +11,10 @@
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"O_Bloc_Test_Lent",
+    "path":"objects/O_Bloc_Test_Lent/O_Bloc_Test_Lent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

@@ -4,19 +4,7 @@
 /// @DnDArgument : "var" "invincible"
 /// @DnDArgument : "not" "1"
 /// @DnDArgument : "value" "true"
-if(!(invincible == true)){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
-	/// @DnDVersion : 1
-	/// @DnDHash : 29F3FCB7
-	/// @DnDApplyTo : {O_Poichon_CC}
-	/// @DnDParent : 51D47A09
-	/// @DnDArgument : "spriteind" "Sprite14"
-	/// @DnDSaveInfo : "spriteind" "Sprite14"
-	with(O_Poichon_CC) {
-	sprite_index = Sprite14;
-	image_index = 0;
-	}
-
-	/// @DnDAction : YoYo Games.Common.Variable
+if(!(invincible == true)){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 3A697E00
 	/// @DnDParent : 51D47A09
@@ -37,9 +25,9 @@ if(!(invincible == true)){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1
 	/// @DnDHash : 62093F65
 	/// @DnDParent : 51D47A09
-	/// @DnDArgument : "steps" "50"
+	/// @DnDArgument : "steps" "60"
 	/// @DnDArgument : "alarm" "5"
-	alarm_set(5, 50);
+	alarm_set(5, 60);
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
