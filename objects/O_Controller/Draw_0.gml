@@ -25,8 +25,8 @@ draw_set_alpha(l79FE8472_0 / $ff);
 /// @DnDHash : 69A81E72
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y_relative" "1"
-/// @DnDArgument : "caption" ""ZQ pour gauche droite \n ESPACE pour sauter K pour tapper ""
-draw_text(x + 0, y + 0, string("ZQ pour gauche droite \n ESPACE pour sauter K pour tapper ") + "");
+/// @DnDArgument : "caption" ""ZQ pour gauche droite \n ESPACE pour sauter K pour tapper \n R pour recommencer ""
+draw_text(x + 0, y + 0, string("ZQ pour gauche droite \n ESPACE pour sauter K pour tapper \n R pour recommencer ") + "");
 
 /// @DnDAction : YoYo Games.Drawing.Set_Alignment
 /// @DnDVersion : 1.1

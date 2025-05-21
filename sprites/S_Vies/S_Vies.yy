@@ -24,6 +24,7 @@
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"e14cd6cf-1c41-449f-abcc-a6fabd7ab3f5","blendMode":0,"displayName":"default","isLocked":false,"name":"e14cd6cf-1c41-449f-abcc-a6fabd7ab3f5","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"107e49cf-ef37-43e3-a223-70a026914ca1","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"107e49cf-ef37-43e3-a223-70a026914ca1","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"S_Vies",
   "nineSlice":null,
@@ -63,7 +64,7 @@
     },
     "name":"S_Vies",
     "playback":1,
-    "playbackSpeed":1.0,
+    "playbackSpeed":5.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",

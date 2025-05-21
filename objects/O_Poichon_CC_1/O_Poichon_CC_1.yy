@@ -12,7 +12,10 @@
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"O_Poichon_Manager",
+    "path":"objects/O_Poichon_Manager/O_Poichon_Manager.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_Poichon_CC",
-    "path":"sprites/S_Poichon_CC/S_Poichon_CC.yy",
+    "name":"S_Poichon_Walk",
+    "path":"sprites/S_Poichon_Walk/S_Poichon_Walk.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,4 +1,6 @@
-/// @DnDAction : YoYo Games.Rooms.Restart_Room
+/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 /// @DnDVersion : 1
-/// @DnDHash : 5BFD6CFA
-room_restart();
+/// @DnDHash : 2ACBEED4
+/// @DnDArgument : "room" "Mor"
+/// @DnDSaveInfo : "room" "Mor"
+room_goto(Mor);
