@@ -8,4 +8,6 @@ Attaquer : K
 
 Sauter : SPACE
 
+Reset sa run : R
+
 Enemis : Poichon_CC ou Triangles oranges
