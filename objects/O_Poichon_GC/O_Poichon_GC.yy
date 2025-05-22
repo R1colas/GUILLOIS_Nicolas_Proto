@@ -9,10 +9,7 @@
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"O_Poichon_Manager",
-    "path":"objects/O_Poichon_Manager/O_Poichon_Manager.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

@@ -8,8 +8,8 @@
   "name":"O_Collision_2",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Collision",
+    "path":"folders/Objects/Collision.yy",
   },
   "parentObjectId":{
     "name":"O_Collision",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"S_Tentacule",
-    "path":"sprites/S_Tentacule/S_Tentacule.yy",
+    "name":"S_Collision",
+    "path":"sprites/S_Collision/S_Collision.yy",
   },
   "spriteMaskId":null,
   "visible":true,

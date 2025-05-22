@@ -10,6 +10,23 @@ var l2DD124F5_0;l2DD124F5_0 = keyboard_check(ord("R"));if (l2DD124F5_0){	///
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
+/// @DnDHash : 51C3AB05
+/// @DnDArgument : "var" "hp"
+/// @DnDArgument : "value" "4"
+if(hp == 4){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 156A27C1
+	/// @DnDApplyTo : {O_HP}
+	/// @DnDParent : 51C3AB05
+	/// @DnDArgument : "spriteind" "S_Vies"
+	/// @DnDSaveInfo : "spriteind" "S_Vies"
+	with(O_HP) {
+	sprite_index = S_Vies;
+	image_index = 0;
+	}}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
 /// @DnDHash : 29C37266
 /// @DnDArgument : "var" "hp"
 /// @DnDArgument : "op" "3"
@@ -199,15 +216,21 @@ var l3E94517E_0 = instance_place(x + 0, y + 51, [O_Collision, O_Bloc_Test_Lent, 
 		/// @DnDVersion : 1
 		/// @DnDHash : 718AF962
 		/// @DnDParent : 28CBB915
-		/// @DnDArgument : "expr" "-35"
+		/// @DnDArgument : "expr" "-32"
 		/// @DnDArgument : "var" "ysp"
-		ysp = -35;}}
+		ysp = -32;}}
 
 /// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
 /// @DnDVersion : 1
 /// @DnDHash : 106EA7BA
 /// @DnDArgument : "key" "ord("K")"
-var l106EA7BA_0;l106EA7BA_0 = keyboard_check(ord("K"));if (l106EA7BA_0){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+var l106EA7BA_0;l106EA7BA_0 = keyboard_check(ord("K"));if (l106EA7BA_0){	/// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
+	/// @DnDVersion : 1
+	/// @DnDHash : 4373F2EF
+	/// @DnDParent : 106EA7BA
+	image_speed = 1;
+
+	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1
 	/// @DnDHash : 14E596B2
 	/// @DnDParent : 106EA7BA
@@ -220,9 +243,9 @@ var l106EA7BA_0;l106EA7BA_0 = keyboard_check(ord("K"));if (l106EA7BA_0){	///
 	/// @DnDVersion : 1
 	/// @DnDHash : 640B0E44
 	/// @DnDParent : 106EA7BA
-	/// @DnDArgument : "steps" "15"
+	/// @DnDArgument : "steps" "10"
 	/// @DnDArgument : "alarm" "3"
-	alarm_set(3, 15);}
+	alarm_set(3, 10);}
 
 /// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
 /// @DnDVersion : 1
@@ -309,11 +332,14 @@ var l26C88549_0 = instance_place(x + 0, y + -50, [O_Bloc_Test_Lent, O_Bloc_Test_
 /// @DnDAction : YoYo Games.Movement.move_and_collide
 /// @DnDVersion : 1
 /// @DnDHash : 1F72DD2C
+/// @DnDArgument : "object" "O_Collision"
 /// @DnDArgument : "xvel" "hspeed"
 /// @DnDArgument : "yvel" "ysp"
-/// @DnDArgument : "object" "O_Collision"
+/// @DnDArgument : "num_iterations" "10"
+/// @DnDArgument : "maxxmove" "-1"
+/// @DnDArgument : "maxymove" "-1"
 /// @DnDSaveInfo : "object" "O_Collision"
-move_and_collide(hspeed, ysp, O_Collision,4,0,0,-1,-1);
+move_and_collide(hspeed, ysp, O_Collision,10,0,0,-1,-1);
 
 /// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
 /// @DnDVersion : 1

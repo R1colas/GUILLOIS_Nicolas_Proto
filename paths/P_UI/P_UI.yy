@@ -1,0 +1,18 @@
+{
+  "$GMPath":"",
+  "%Name":"P_UI",
+  "closed":false,
+  "kind":0,
+  "name":"P_UI",
+  "parent":{
+    "name":"Paths",
+    "path":"folders/Paths.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":14976.0,"y":5632.0,},
+    {"speed":100.0,"x":14976.0,"y":5376.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

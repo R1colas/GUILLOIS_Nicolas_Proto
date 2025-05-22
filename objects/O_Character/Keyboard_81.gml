@@ -25,7 +25,6 @@ hspeed += -walkspeed;
 /// @DnDVersion : 1.1
 /// @DnDHash : 0A4C50CE
 /// @DnDInput : 2
-/// @DnDArgument : "x" "32"
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y" "-64"
 /// @DnDArgument : "y_relative" "1"
@@ -34,7 +33,7 @@ hspeed += -walkspeed;
 /// @DnDArgument : "object_1" "O_Poichon_Manager"
 /// @DnDSaveInfo : "object" "O_Collision"
 /// @DnDSaveInfo : "object_1" "O_Poichon_Manager"
-var l0A4C50CE_0 = instance_place(x + 32, y + -64, [O_Collision, O_Poichon_Manager]);if ((l0A4C50CE_0 > 0)){	/// @DnDAction : YoYo Games.Movement.Set_Speed
+var l0A4C50CE_0 = instance_place(x + 0, y + -64, [O_Collision, O_Poichon_Manager]);if ((l0A4C50CE_0 > 0)){	/// @DnDAction : YoYo Games.Movement.Set_Speed
 	/// @DnDVersion : 1
 	/// @DnDHash : 5FD881DA
 	/// @DnDParent : 0A4C50CE
