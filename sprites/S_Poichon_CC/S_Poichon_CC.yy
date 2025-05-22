@@ -47,8 +47,8 @@
   },
   "origin":4,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"Enemis",
+    "path":"folders/Objects/Enemis.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

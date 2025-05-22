@@ -14,8 +14,8 @@
   "name":"O_Poichon_CC_1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Enemis",
+    "path":"folders/Objects/Enemis.yy",
   },
   "parentObjectId":{
     "name":"O_Killable_Manager",

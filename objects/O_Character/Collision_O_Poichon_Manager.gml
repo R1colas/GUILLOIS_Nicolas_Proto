@@ -1,7 +1,7 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 41F80C2D
-/// @DnDInput : 4
+/// @DnDInput : 5
 /// @DnDArgument : "expr" "-((O_Poichon_CC.x-x)*0.01)"
 /// @DnDArgument : "expr_relative" "1"
 /// @DnDArgument : "expr_1" "-((O_Poichon_GC.x-x)*0.01)"
@@ -10,14 +10,17 @@
 /// @DnDArgument : "expr_relative_2" "1"
 /// @DnDArgument : "expr_3" "-((O_Poichon_CC_2.x-x)*0.01)"
 /// @DnDArgument : "expr_relative_3" "1"
+/// @DnDArgument : "expr_4" "-((O_Poichon_CC_3.x-x)*0.01)"
 /// @DnDArgument : "var" "x"
 /// @DnDArgument : "var_1" "x"
 /// @DnDArgument : "var_2" "x"
 /// @DnDArgument : "var_3" "x"
+/// @DnDArgument : "var_4" "x"
 x += -((O_Poichon_CC.x-x)*0.01);
 x += -((O_Poichon_GC.x-x)*0.01);
 x += -((O_Poichon_CC_1.x-x)*0.01);
 x += -((O_Poichon_CC_2.x-x)*0.01);
+x = -((O_Poichon_CC_3.x-x)*0.01);
 
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1

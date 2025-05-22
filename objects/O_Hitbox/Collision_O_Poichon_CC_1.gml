@@ -1,11 +1,10 @@
-/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
-/// @DnDVersion : 1
-/// @DnDHash : 346DA54F
-/// @DnDArgument : "key" "ord("K")"
-var l346DA54F_0;l346DA54F_0 = keyboard_check(ord("K"));if (l346DA54F_0){	/// @DnDAction : YoYo Games.Instances.Create_Instance
+/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Mouse_Down
+/// @DnDVersion : 1.1
+/// @DnDHash : 1CA34460
+var l1CA34460_0;l1CA34460_0 = mouse_check_button(mb_left);if (l1CA34460_0){	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 666EFE8D
-	/// @DnDParent : 346DA54F
+	/// @DnDParent : 1CA34460
 	/// @DnDArgument : "xpos" "O_Poichon_CC_1.x"
 	/// @DnDArgument : "ypos" "O_Poichon_CC_1.y+100"
 	/// @DnDArgument : "objectid" "O_Explosion"
@@ -16,7 +15,7 @@ var l346DA54F_0;l346DA54F_0 = keyboard_check(ord("K"));if (l346DA54F_0){	///
 	/// @DnDAction : YoYo Games.Instances.Set_Alarm
 	/// @DnDVersion : 1
 	/// @DnDHash : 020C7843
-	/// @DnDParent : 346DA54F
+	/// @DnDParent : 1CA34460
 	/// @DnDArgument : "steps" "15"
 	/// @DnDArgument : "alarm" "1"
 	alarm_set(1, 15);
@@ -24,7 +23,7 @@ var l346DA54F_0;l346DA54F_0 = keyboard_check(ord("K"));if (l346DA54F_0){	///
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 29543BF6
-	/// @DnDParent : 346DA54F
+	/// @DnDParent : 1CA34460
 	/// @DnDArgument : "xpos" "O_Poichon_CC_1.x"
 	/// @DnDArgument : "ypos" "O_Poichon_CC_1.y+100"
 	/// @DnDArgument : "objectid" "O_Poichon_Dead"
@@ -36,5 +35,5 @@ var l346DA54F_0;l346DA54F_0 = keyboard_check(ord("K"));if (l346DA54F_0){	///
 	/// @DnDVersion : 1
 	/// @DnDHash : 12D27AE1
 	/// @DnDApplyTo : {O_Poichon_CC_1}
-	/// @DnDParent : 346DA54F
+	/// @DnDParent : 1CA34460
 	with(O_Poichon_CC_1) instance_destroy();}

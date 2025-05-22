@@ -9,8 +9,8 @@
   "name":"O_Poichon_Manager",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Enemis",
+    "path":"folders/Objects/Enemis.yy",
   },
   "parentObjectId":null,
   "persistent":false,

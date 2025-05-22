@@ -52,9 +52,3 @@ if(isattacking == true){	/// @DnDAction : YoYo Games.Instances.Sprite_Animatio
 	/// @DnDParent : 2E683B73
 	/// @DnDArgument : "speed" "0"
 	image_speed = 0;}
-
-/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-/// @DnDVersion : 1
-/// @DnDHash : 21E5BA51
-/// @DnDArgument : "msg" "x"
-show_debug_message(string(x));

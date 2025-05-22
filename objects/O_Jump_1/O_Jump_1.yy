@@ -9,8 +9,8 @@
   "name":"O_Jump_1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Bump",
+    "path":"folders/Objects/Bump.yy",
   },
   "parentObjectId":{
     "name":"O_Jump",

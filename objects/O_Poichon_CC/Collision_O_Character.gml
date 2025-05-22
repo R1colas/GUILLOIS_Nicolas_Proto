@@ -3,9 +3,9 @@
 /// @DnDHash : 0E279223
 /// @DnDApplyTo : {O_Character}
 /// @DnDArgument : "expr" "-5"
-/// @DnDArgument : "var" "hspeed"
+/// @DnDArgument : "var" "xsp"
 with(O_Character) {
-hspeed = -5;
+xsp = -5;
 
 }
 

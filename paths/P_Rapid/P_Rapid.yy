@@ -1,0 +1,18 @@
+{
+  "$GMPath":"",
+  "%Name":"P_Rapid",
+  "closed":false,
+  "kind":0,
+  "name":"P_Rapid",
+  "parent":{
+    "name":"Paths",
+    "path":"folders/Paths.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":33536.0,"y":1984.0,},
+    {"speed":100.0,"x":33536.0,"y":5824.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

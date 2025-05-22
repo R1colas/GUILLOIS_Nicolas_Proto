@@ -11,8 +11,8 @@
   "name":"O_Bloc_Test_Lent",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Bump",
+    "path":"folders/Objects/Bump.yy",
   },
   "parentObjectId":null,
   "persistent":false,

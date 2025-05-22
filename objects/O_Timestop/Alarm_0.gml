@@ -16,5 +16,5 @@ if(timestop == true){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 77CADC6E
 	/// @DnDParent : 18572DE2
-	/// @DnDArgument : "steps" "50"
-	alarm_set(0, 50);}
+	/// @DnDArgument : "steps" "40"
+	alarm_set(0, 40);}

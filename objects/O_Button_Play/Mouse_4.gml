@@ -15,6 +15,6 @@ image_index = 2;
 /// @DnDAction : YoYo Games.Rooms.Go_To_Room
 /// @DnDVersion : 1
 /// @DnDHash : 2B4983B6
-/// @DnDArgument : "room" "Level"
-/// @DnDSaveInfo : "room" "Level"
-room_goto(Level);
+/// @DnDArgument : "room" "Level_1"
+/// @DnDSaveInfo : "room" "Level_1"
+room_goto(Level_1);
