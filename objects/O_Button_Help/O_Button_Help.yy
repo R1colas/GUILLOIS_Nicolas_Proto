@@ -8,7 +8,7 @@
   "managed":true,
   "name":"O_Button_Help",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Buttton_Parent","path":"objects/O_Buttton_Parent/O_Buttton_Parent.yy",},"propertyId":{"name":"button_text","path":"objects/O_Buttton_Parent/O_Buttton_Parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"C koi les touches ?",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Buttton_Parent","path":"objects/O_Buttton_Parent/O_Buttton_Parent.yy",},"propertyId":{"name":"button_text","path":"objects/O_Buttton_Parent/O_Buttton_Parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"",},
   ],
   "parent":{
     "name":"Menu",

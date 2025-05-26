@@ -9,7 +9,7 @@
   "managed":true,
   "name":"O_Button_Play",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Buttton_Parent","path":"objects/O_Buttton_Parent/O_Buttton_Parent.yy",},"propertyId":{"name":"button_text","path":"objects/O_Buttton_Parent/O_Buttton_Parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Je suis qualifié",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Buttton_Parent","path":"objects/O_Buttton_Parent/O_Buttton_Parent.yy",},"propertyId":{"name":"button_text","path":"objects/O_Buttton_Parent/O_Buttton_Parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"",},
   ],
   "parent":{
     "name":"Menu",

@@ -1,0 +1,18 @@
+{
+  "$GMPath":"",
+  "%Name":"P_Poihon",
+  "closed":false,
+  "kind":0,
+  "name":"P_Poihon",
+  "parent":{
+    "name":"Path_2",
+    "path":"folders/Paths/Path_2.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":55168.0,"y":2432.0,},
+    {"speed":100.0,"x":52992.0,"y":2432.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

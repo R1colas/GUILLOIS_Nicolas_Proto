@@ -8,11 +8,11 @@
   "managed":true,
   "name":"O_Button_Quit",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Buttton_Parent","path":"objects/O_Buttton_Parent/O_Buttton_Parent.yy",},"propertyId":{"name":"button_text","path":"objects/O_Buttton_Parent/O_Buttton_Parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Ciao",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Buttton_Parent","path":"objects/O_Buttton_Parent/O_Buttton_Parent.yy",},"propertyId":{"name":"button_text","path":"objects/O_Buttton_Parent/O_Buttton_Parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"",},
   ],
   "parent":{
-    "name":"Enemis",
-    "path":"folders/Objects/Enemis.yy",
+    "name":"Menu",
+    "path":"folders/Objects/Menu.yy",
   },
   "parentObjectId":{
     "name":"O_Buttton_Parent",

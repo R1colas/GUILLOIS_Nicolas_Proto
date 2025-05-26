@@ -1,0 +1,9 @@
+/// @DnDAction : YoYo Games.Paths.Start_Path
+/// @DnDVersion : 1.1
+/// @DnDHash : 52FA6BA5
+/// @DnDArgument : "path" "P_UI_3"
+/// @DnDArgument : "speed" "2"
+/// @DnDArgument : "atend" "path_action_reverse"
+/// @DnDArgument : "relative" "true"
+/// @DnDSaveInfo : "path" "P_UI_3"
+path_start(P_UI_3, 2, path_action_reverse, true);

@@ -1,0 +1,18 @@
+{
+  "$GMPath":"",
+  "%Name":"P_Blob_2",
+  "closed":false,
+  "kind":0,
+  "name":"P_Blob_2",
+  "parent":{
+    "name":"Path_2",
+    "path":"folders/Paths/Path_2.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":44032.0,"y":1920.0,},
+    {"speed":100.0,"x":44032.0,"y":4864.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

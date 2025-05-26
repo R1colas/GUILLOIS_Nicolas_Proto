@@ -1,0 +1,15 @@
+{
+  "$GMPath":"",
+  "%Name":"P_Bouge",
+  "closed":false,
+  "kind":0,
+  "name":"P_Bouge",
+  "parent":{
+    "name":"Path_2",
+    "path":"folders/Paths/Path_2.yy",
+  },
+  "points":[],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

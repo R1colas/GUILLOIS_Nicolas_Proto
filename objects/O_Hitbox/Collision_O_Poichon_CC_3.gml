@@ -34,6 +34,6 @@ var l1E335241_0;l1E335241_0 = mouse_check_button(mb_left);if (l1E335241_0){	
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 23B6CBC3
-	/// @DnDApplyTo : {O_Poichon_CC_1}
+	/// @DnDApplyTo : {O_Poichon_CC_3}
 	/// @DnDParent : 1E335241
-	with(O_Poichon_CC_1) instance_destroy();}
+	with(O_Poichon_CC_3) instance_destroy();}
