@@ -4,10 +4,9 @@ Nom : " Poiscaille Panic ! "
 
 Bouger : QD
 
-Attaquer : K
+Attaquer : Clic GAUCHE
 
 Sauter : SPACE
 
 Reset sa run : R
 
-Enemis : Poichon_CC ou Triangles oranges
