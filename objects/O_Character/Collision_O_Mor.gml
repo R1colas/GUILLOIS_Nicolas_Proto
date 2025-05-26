@@ -1,9 +1,16 @@
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 79910884
-/// @DnDArgument : "var" "O_Checkpoint.checkpointpris"
+/// @DnDArgument : "var" "O_Checkpoint.checkpointpris or O_Checkpoint_2.checkpointacquis"
 /// @DnDArgument : "value" "true"
-if(O_Checkpoint.checkpointpris == true){	/// @DnDAction : YoYo Games.Game.Load_Game
+if(O_Checkpoint.checkpointpris or O_Checkpoint_2.checkpointacquis == true){	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 111A82B5
+	/// @DnDParent : 79910884
+	/// @DnDArgument : "var" "xsp"
+	xsp = 0;
+
+	/// @DnDAction : YoYo Games.Game.Load_Game
 	/// @DnDVersion : 1
 	/// @DnDHash : 43646C82
 	/// @DnDParent : 79910884

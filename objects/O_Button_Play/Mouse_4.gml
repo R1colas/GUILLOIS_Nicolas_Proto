@@ -12,9 +12,22 @@ event_inherited();
 sprite_index = S_Empty;
 image_index = 2;
 
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 056607A9
+/// @DnDArgument : "var" "O_Path.pris"
+/// @DnDArgument : "value" "true"
+if(O_Path.pris == true){	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+	/// @DnDVersion : 1
+	/// @DnDHash : 314BEDFE
+	/// @DnDParent : 056607A9
+	/// @DnDArgument : "room" "Level_2"
+	/// @DnDSaveInfo : "room" "Level_2"
+	room_goto(Level_2);}
+
 /// @DnDAction : YoYo Games.Rooms.Go_To_Room
 /// @DnDVersion : 1
-/// @DnDHash : 2B4983B6
+/// @DnDHash : 09EACB38
 /// @DnDArgument : "room" "Level_1"
 /// @DnDSaveInfo : "room" "Level_1"
 room_goto(Level_1);

@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite31",
-    "path":"sprites/Sprite31/Sprite31.yy",
+    "name":"S_CheckPoint_1",
+    "path":"sprites/S_CheckPoint_1/S_CheckPoint_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,
