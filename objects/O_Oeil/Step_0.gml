@@ -3,11 +3,13 @@
 /// @DnDHash : 60DB326C
 /// @DnDArgument : "var" "hp"
 /// @DnDArgument : "op" "3"
-if(hp <= 0){	/// @DnDAction : YoYo Games.Game.End_Game
+if(hp <= 0){	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 	/// @DnDVersion : 1
-	/// @DnDHash : 0E9F9921
+	/// @DnDHash : 17CAC682
 	/// @DnDParent : 60DB326C
-	game_end();}
+	/// @DnDArgument : "room" "Victory"
+	/// @DnDSaveInfo : "room" "Victory"
+	room_goto(Victory);}
 
 /// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
 /// @DnDVersion : 1

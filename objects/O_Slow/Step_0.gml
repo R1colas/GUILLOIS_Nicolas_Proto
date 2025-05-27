@@ -15,8 +15,8 @@ if(alarm_get(1) <= 0){	/// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 1CFAB4A6
 /// @DnDArgument : "var" "glace"
-/// @DnDArgument : "value" "20.00"
-if(glace == 20.00){	/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDArgument : "value" "30.00"
+if(glace == 30.00){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 6F94A339
 	/// @DnDParent : 1CFAB4A6

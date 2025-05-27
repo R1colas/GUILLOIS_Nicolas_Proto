@@ -1,9 +1,9 @@
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 79910884
-/// @DnDArgument : "var" "O_Checkpoint.checkpointpris or O_Checkpoint_2.checkpointacquis"
+/// @DnDArgument : "var" "O_Checkpoint.checkpointpris"
 /// @DnDArgument : "value" "true"
-if(O_Checkpoint.checkpointpris or O_Checkpoint_2.checkpointacquis == true){	/// @DnDAction : YoYo Games.Common.Variable
+if(O_Checkpoint.checkpointpris == true){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 111A82B5
 	/// @DnDParent : 79910884
