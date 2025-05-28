@@ -80,15 +80,3 @@ if(defreeze == true){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDArgument : "expr" "60"
 	/// @DnDArgument : "var" "O_Character.maxSpd"
 	O_Character.maxSpd = 60;}
-
-/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-/// @DnDVersion : 1
-/// @DnDHash : 435A09BA
-/// @DnDArgument : "msg" "glace"
-show_debug_message(string(glace));
-
-/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-/// @DnDVersion : 1
-/// @DnDHash : 2F27D3D9
-/// @DnDArgument : "msg" "defreeze"
-show_debug_message(string(defreeze));

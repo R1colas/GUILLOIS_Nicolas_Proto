@@ -1,3 +1,10 @@
+/// @DnDAction : YoYo Games.Instances.Color_Sprite
+/// @DnDVersion : 1
+/// @DnDHash : 24A2EAA6
+/// @DnDArgument : "colour" "$FF4C91FF"
+image_blend = $FF4C91FF & $ffffff;
+image_alpha = ($FF4C91FF >> 24) / $ff;
+
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 5CC7B90F
@@ -46,8 +53,9 @@ if(O_Checkpoint.checkpointpris == true){	/// @DnDAction : YoYo Games.Common.If
 		/// @DnDVersion : 1
 		/// @DnDHash : 6BB284C7
 		/// @DnDParent : 52D3CE45
-		image_blend = $FFFFFFFF & $ffffff;
-		image_alpha = ($FFFFFFFF >> 24) / $ff;}}
+		/// @DnDArgument : "colour" "$FF4C91FF"
+		image_blend = $FF4C91FF & $ffffff;
+		image_alpha = ($FF4C91FF >> 24) / $ff;}}
 
 /// @DnDAction : YoYo Games.Instances.If_Instance_Exists
 /// @DnDVersion : 1

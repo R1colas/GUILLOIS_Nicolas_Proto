@@ -9,8 +9,8 @@
     "path":"folders/Paths/Path_2.yy",
   },
   "points":[
-    {"speed":100.0,"x":46848.0,"y":1408.0,},
-    {"speed":100.0,"x":46848.0,"y":2048.0,},
+    {"speed":100.0,"x":29056.0,"y":3904.0,},
+    {"speed":100.0,"x":29056.0,"y":4352.0,},
   ],
   "precision":4,
   "resourceType":"GMPath",

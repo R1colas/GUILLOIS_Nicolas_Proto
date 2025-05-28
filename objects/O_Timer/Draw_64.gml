@@ -12,9 +12,9 @@ draw_set_font(F_Timer);
 /// @DnDArgument : "y" "20"
 /// @DnDArgument : "xscale" "0.1"
 /// @DnDArgument : "yscale" "0.1"
-/// @DnDArgument : "sprite" "Sprite5"
-/// @DnDSaveInfo : "sprite" "Sprite5"
-draw_sprite_ext(Sprite5, 0, 1500, 20, 0.1, 0.1, 0, $FFFFFF & $ffffff, 1);
+/// @DnDArgument : "sprite" "S_Clock"
+/// @DnDSaveInfo : "sprite" "S_Clock"
+draw_sprite_ext(S_Clock, 0, 1500, 20, 0.1, 0.1, 0, $FFFFFF & $ffffff, 1);
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 /// @DnDVersion : 1

@@ -1,3 +1,13 @@
+/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
+/// @DnDVersion : 1
+/// @DnDHash : 4C93B287
+/// @DnDArgument : "x" "3000"
+/// @DnDArgument : "y" "-500"
+/// @DnDArgument : "sprite" "S_Termometre"
+/// @DnDArgument : "frame" "1"
+/// @DnDSaveInfo : "sprite" "S_Termometre"
+draw_sprite_ext(S_Termometre, 1, 3000, -500, 1, 1, 0, $FFFFFF & $ffffff, 1);
+
 /// @DnDAction : YoYo Games.Drawing.Draw_Healthbar
 /// @DnDVersion : 1
 /// @DnDHash : 4D1BF4C8
