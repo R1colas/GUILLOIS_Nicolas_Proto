@@ -16,6 +16,15 @@ if(!(invincible == true)){	/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDParent : 694E7204
 		room_restart();}
 
+	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 6574302F
+	/// @DnDParent : 0EE5B4CC
+	/// @DnDArgument : "target_temp" "1"
+	/// @DnDArgument : "soundid" "S_Agonie"
+	/// @DnDSaveInfo : "soundid" "S_Agonie"
+	audio_play_sound(S_Agonie, 0, 0, 1.0, undefined, 1.0);
+
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 19E0FFF1

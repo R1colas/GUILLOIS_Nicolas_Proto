@@ -4,7 +4,15 @@
 /// @DnDArgument : "var" "on"
 /// @DnDArgument : "not" "1"
 /// @DnDArgument : "value" "true"
-if(!(on == true)){	/// @DnDAction : YoYo Games.Common.Variable
+if(!(on == true)){	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 349EAA81
+	/// @DnDParent : 753D42A1
+	/// @DnDArgument : "soundid" "S_Blob"
+	/// @DnDSaveInfo : "soundid" "S_Blob"
+	audio_play_sound(S_Blob, 0, 0, 1.0, undefined, 1.0);
+
+	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 18883D11
 	/// @DnDParent : 753D42A1

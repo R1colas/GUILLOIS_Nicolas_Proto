@@ -16,7 +16,16 @@ if(alarm_get(1) <= 0){	/// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDHash : 1CFAB4A6
 /// @DnDArgument : "var" "glace"
 /// @DnDArgument : "value" "30.00"
-if(glace == 30.00){	/// @DnDAction : YoYo Games.Common.Variable
+if(glace == 30.00){	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 5424BC52
+	/// @DnDParent : 1CFAB4A6
+	/// @DnDArgument : "target_temp" "1"
+	/// @DnDArgument : "soundid" "S_TicTac"
+	/// @DnDSaveInfo : "soundid" "S_TicTac"
+	audio_play_sound(S_TicTac, 0, 0, 1.0, undefined, 1.0);
+
+	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 6F94A339
 	/// @DnDParent : 1CFAB4A6

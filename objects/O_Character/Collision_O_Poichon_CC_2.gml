@@ -4,7 +4,16 @@
 /// @DnDArgument : "var" "invincible"
 /// @DnDArgument : "not" "1"
 /// @DnDArgument : "value" "true"
-if(!(invincible == true)){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+if(!(invincible == true)){	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 0F660A24
+	/// @DnDParent : 2BC1DD5E
+	/// @DnDArgument : "target_temp" "1"
+	/// @DnDArgument : "soundid" "S_Agonie"
+	/// @DnDSaveInfo : "soundid" "S_Agonie"
+	audio_play_sound(S_Agonie, 0, 0, 1.0, undefined, 1.0);
+
+	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1
 	/// @DnDHash : 7E6757EF
 	/// @DnDApplyTo : {O_Poichon_CC}

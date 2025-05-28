@@ -20,6 +20,14 @@ if(countdown <= 0){	/// @DnDAction : YoYo Games.Instances.If_Instance_Exists
 		/// @DnDSaveInfo : "objectid" "O_Go"
 		instance_create_layer(O_Character.x+4500, O_Character.y-100, "La_devant", O_Go);
 	
+		/// @DnDAction : YoYo Games.Instances.Create_Instance
+		/// @DnDVersion : 1
+		/// @DnDHash : 0CF8E3D5
+		/// @DnDParent : 694738CE
+		/// @DnDArgument : "objectid" "O_Music"
+		/// @DnDSaveInfo : "objectid" "O_Music"
+		instance_create_layer(0, 0, "Instances", O_Music);
+	
 		/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 		/// @DnDVersion : 1
 		/// @DnDHash : 0E1B0DC3
@@ -43,6 +51,14 @@ if(countdown <= 0){	/// @DnDAction : YoYo Games.Instances.If_Instance_Exists
 		/// @DnDArgument : "layer" ""La_devant""
 		/// @DnDSaveInfo : "objectid" "O_Go"
 		instance_create_layer(O_Character.x+3550, O_Character.y, "La_devant", O_Go);
+	
+		/// @DnDAction : YoYo Games.Instances.Create_Instance
+		/// @DnDVersion : 1
+		/// @DnDHash : 260A3DFB
+		/// @DnDParent : 7E3E3AE6
+		/// @DnDArgument : "objectid" "O_Music"
+		/// @DnDSaveInfo : "objectid" "O_Music"
+		instance_create_layer(0, 0, "Instances", O_Music);
 	
 		/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 		/// @DnDVersion : 1

@@ -1,7 +1,15 @@
 /// @DnDAction : YoYo Games.Mouse & Keyboard.If_Mouse_Down
 /// @DnDVersion : 1.1
 /// @DnDHash : 1E335241
-var l1E335241_0;l1E335241_0 = mouse_check_button(mb_left);if (l1E335241_0){	/// @DnDAction : YoYo Games.Instances.Create_Instance
+var l1E335241_0;l1E335241_0 = mouse_check_button(mb_left);if (l1E335241_0){	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 37277C84
+	/// @DnDParent : 1E335241
+	/// @DnDArgument : "soundid" "S_Ecrasement"
+	/// @DnDSaveInfo : "soundid" "S_Ecrasement"
+	audio_play_sound(S_Ecrasement, 0, 0, 1.0, undefined, 1.0);
+
+	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 1FDA315A
 	/// @DnDParent : 1E335241
