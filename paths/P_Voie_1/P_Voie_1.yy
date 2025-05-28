@@ -1,0 +1,17 @@
+{
+  "$GMPath":"",
+  "%Name":"P_Voie_1",
+  "closed":false,
+  "kind":0,
+  "name":"P_Voie_1",
+  "parent":{
+    "name":"Path_2",
+    "path":"folders/Paths/Path_2.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":50752.0,"y":2784.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

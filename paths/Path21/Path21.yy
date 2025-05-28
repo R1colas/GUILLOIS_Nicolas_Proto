@@ -5,8 +5,8 @@
   "kind":0,
   "name":"Path21",
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Path_2",
+    "path":"folders/Paths/Path_2.yy",
   },
   "points":[
     {"speed":100.0,"x":34240.0,"y":2304.0,},

@@ -14,8 +14,8 @@ if(O_Checkpoint.checkpointpris == true){	/// @DnDAction : YoYo Games.Common.Va
 	/// @DnDVersion : 1
 	/// @DnDHash : 43646C82
 	/// @DnDParent : 79910884
-	/// @DnDArgument : "filename" "O_Character.x and O_Character.y"
-	game_load(O_Character.x and O_Character.y);}
+	/// @DnDArgument : "filename" "O_Character.x and O_Character.y and O_Character.hp"
+	game_load(O_Character.x and O_Character.y and O_Character.hp);}
 
 /// @DnDAction : YoYo Games.Common.Else
 /// @DnDVersion : 1
