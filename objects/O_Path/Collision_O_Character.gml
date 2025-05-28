@@ -5,12 +5,6 @@
 /// @DnDSaveInfo : "room" "Level_2"
 room_goto(Level_2);
 
-/// @DnDAction : YoYo Games.Game.Load_Game
-/// @DnDVersion : 1
-/// @DnDHash : 5F90FD39
-/// @DnDArgument : "filename" "O_Character.hp"
-game_load(O_Character.hp);
-
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 3773F9D9
