@@ -111,6 +111,7 @@
     {"name":"inst_45C0C44C","path":"rooms/Level_2/Level_2.yy",},
     {"name":"inst_56D3D35B","path":"rooms/Level_2/Level_2.yy",},
     {"name":"inst_757A66C9","path":"rooms/Level_2/Level_2.yy",},
+    {"name":"inst_43A93FB7","path":"rooms/Level_2/Level_2.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -228,6 +229,7 @@
         {"$GMRInstance":"v2","%Name":"inst_45C0C44C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_45C0C44C","objectId":{"name":"O_Bloc_Test_Lent_1","path":"objects/O_Bloc_Test_Lent_1/O_Bloc_Test_Lent_1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":56704.0,"y":4608.0,},
         {"$GMRInstance":"v2","%Name":"inst_56D3D35B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_56D3D35B","objectId":{"name":"O_Music_2","path":"objects/O_Music_2/O_Music_2.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-384.0,"y":2752.0,},
         {"$GMRInstance":"v2","%Name":"inst_757A66C9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_757A66C9","objectId":{"name":"O_Music_1","path":"objects/O_Music_1/O_Music_1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-384.0,"y":2880.0,},
+        {"$GMRInstance":"v2","%Name":"inst_43A93FB7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_43A93FB7","objectId":{"name":"O_Range","path":"objects/O_Range/O_Range.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":4.875,"scaleY":4.5,"x":39360.0,"y":4544.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Ladevant","depth":1400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Ladevant","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":26,"SerialiseWidth":391,"TileCompressedData":[
           -3338,-2147483648,4,2,3,0,0,-387,-2147483648,4,22,23,0,0,-204,-2147483648,2,2,3,-179,-2147483648,6,536871108,

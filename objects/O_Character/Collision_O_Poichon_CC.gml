@@ -6,6 +6,15 @@
 /// @DnDArgument : "value" "true"
 if(!(invincible == true)){	/// @DnDAction : YoYo Games.Audio.Play_Audio
 	/// @DnDVersion : 1.1
+	/// @DnDHash : 7B1E1D5B
+	/// @DnDParent : 51D47A09
+	/// @DnDArgument : "target_temp" "1"
+	/// @DnDArgument : "soundid" "S_Dmg"
+	/// @DnDSaveInfo : "soundid" "S_Dmg"
+	audio_play_sound(S_Dmg, 0, 0, 1.0, undefined, 1.0);
+
+	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1.1
 	/// @DnDHash : 40356437
 	/// @DnDParent : 51D47A09
 	/// @DnDArgument : "target_temp" "1"
