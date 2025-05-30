@@ -21,6 +21,6 @@ feu = true;
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 5B1829EA
-/// @DnDArgument : "steps" "50"
+/// @DnDArgument : "steps" "100"
 /// @DnDArgument : "alarm" "1"
-alarm_set(1, 50);
+alarm_set(1, 100);

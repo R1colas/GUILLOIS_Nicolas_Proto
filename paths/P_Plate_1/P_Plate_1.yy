@@ -1,0 +1,18 @@
+{
+  "$GMPath":"",
+  "%Name":"P_Plate_1",
+  "closed":false,
+  "kind":0,
+  "name":"P_Plate_1",
+  "parent":{
+    "name":"Path_2",
+    "path":"folders/Paths/Path_2.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":63360.0,"y":2176.0,},
+    {"speed":100.0,"x":63360.0,"y":4992.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

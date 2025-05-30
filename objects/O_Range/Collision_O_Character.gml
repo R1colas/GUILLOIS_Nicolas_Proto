@@ -2,6 +2,6 @@
 /// @DnDVersion : 1.1
 /// @DnDHash : 0BCF3121
 /// @DnDArgument : "sound" "S_Chekpoint"
-/// @DnDArgument : "volume" "0.1"
+/// @DnDArgument : "volume" "0.2"
 /// @DnDSaveInfo : "sound" "S_Chekpoint"
-audio_sound_gain(S_Chekpoint, 0.1, 0);
+audio_sound_gain(S_Chekpoint, 0.2, 0);

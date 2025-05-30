@@ -1,0 +1,18 @@
+{
+  "$GMPath":"",
+  "%Name":"P_Tenta_3",
+  "closed":false,
+  "kind":0,
+  "name":"P_Tenta_3",
+  "parent":{
+    "name":"Collision",
+    "path":"folders/Objects/Collision.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":70144.0,"y":4096.0,},
+    {"speed":100.0,"x":73472.0,"y":4096.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}
