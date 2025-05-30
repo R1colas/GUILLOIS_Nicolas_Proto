@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"O_Collision",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"O_Fchette",
+  "eventList":[],
   "managed":true,
-  "name":"O_Collision",
+  "name":"O_Fchette",
   "overriddenProperties":[],
   "parent":{
-    "name":"Collision",
-    "path":"folders/Objects/Collision.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,9 +28,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_Collision",
-    "path":"sprites/S_Collision/S_Collision.yy",
+    "name":"S_Fchette",
+    "path":"sprites/S_Fchette/S_Fchette.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

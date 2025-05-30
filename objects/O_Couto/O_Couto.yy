@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"O_Collision",
+  "%Name":"O_Couto",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_Collision",
+  "name":"O_Couto",
   "overriddenProperties":[],
   "parent":{
-    "name":"Collision",
-    "path":"folders/Objects/Collision.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,9 +30,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_Collision",
-    "path":"sprites/S_Collision/S_Collision.yy",
+    "name":"S_Couto",
+    "path":"sprites/S_Couto/S_Couto.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }
