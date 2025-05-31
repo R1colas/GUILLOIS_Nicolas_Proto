@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite30",
-    "path":"sprites/Sprite30/Sprite30.yy",
+    "name":"S_Degat",
+    "path":"sprites/S_Degat/S_Degat.yy",
   },
   "spriteMaskId":null,
   "visible":true,

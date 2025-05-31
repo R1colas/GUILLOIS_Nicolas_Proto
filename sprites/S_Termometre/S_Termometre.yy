@@ -4,15 +4,14 @@
   "bboxMode":0,
   "bbox_bottom":583,
   "bbox_left":18,
-  "bbox_right":1719,
-  "bbox_top":410,
+  "bbox_right":1582,
+  "bbox_top":408,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"97e00d8c-3f26-44e6-bb6a-a099415f13e1","name":"97e00d8c-3f26-44e6-bb6a-a099415f13e1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"5d81371d-a001-4a13-b780-5c5bb9d9fba5","name":"5d81371d-a001-4a13-b780-5c5bb9d9fba5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
@@ -21,10 +20,11 @@
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"e5be158a-6476-4894-95ac-2c79685e30ce","blendMode":0,"displayName":"default","isLocked":false,"name":"e5be158a-6476-4894-95ac-2c79685e30ce","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"1e4dd0a1-3580-4d69-8760-8ae28b1eab56","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"1e4dd0a1-3580-4d69-8760-8ae28b1eab56","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"S_Termometre",
   "nineSlice":null,
-  "origin":4,
+  "origin":0,
   "parent":{
     "name":"Sprites",
     "path":"folders/Sprites.yy",
@@ -50,7 +50,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":2.0,
+    "length":1.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -72,17 +72,14 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"97e00d8c-3f26-44e6-bb6a-a099415f13e1","path":"sprites/S_Termometre/S_Termometre.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"28cf9330-b62c-47dd-98fa-cf2718a75ffe","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5d81371d-a001-4a13-b780-5c5bb9d9fba5","path":"sprites/S_Termometre/S_Termometre.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"83d0f5dd-eaf5-4604-9cac-ad3b34a2a9d4","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"83d0f5dd-eaf5-4604-9cac-ad3b34a2a9d4","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":960,
-    "yorigin":540,
+    "xorigin":0,
+    "yorigin":0,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

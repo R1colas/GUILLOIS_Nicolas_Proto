@@ -8,9 +8,9 @@ feu = false;
 /// @DnDAction : YoYo Games.Instances.Set_Sprite
 /// @DnDVersion : 1
 /// @DnDHash : 7544AEE9
-/// @DnDArgument : "spriteind" "Sprite55"
-/// @DnDSaveInfo : "spriteind" "Sprite55"
-sprite_index = Sprite55;
+/// @DnDArgument : "spriteind" "S_Replace"
+/// @DnDSaveInfo : "spriteind" "S_Replace"
+sprite_index = S_Replace;
 image_index = 0;
 
 /// @DnDAction : YoYo Games.Instances.Set_Alarm

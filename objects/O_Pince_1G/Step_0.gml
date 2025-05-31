@@ -59,14 +59,7 @@ if(timer == 3.00){	/// @DnDAction : YoYo Games.Movement.Set_Speed
 		/// @DnDParent : 70DD4EFF
 		/// @DnDArgument : "steps" "5"
 		/// @DnDArgument : "alarm" "1"
-		alarm_set(1, 5);
-	
-		/// @DnDAction : YoYo Games.Movement.Set_Speed
-		/// @DnDVersion : 1
-		/// @DnDHash : 71C9756B
-		/// @DnDParent : 70DD4EFF
-		/// @DnDArgument : "type" "2"
-		vspeed = 0;}}
+		alarm_set(1, 5);}}
 
 /// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
 /// @DnDVersion : 1

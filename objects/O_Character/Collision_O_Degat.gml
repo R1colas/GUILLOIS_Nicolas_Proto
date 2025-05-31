@@ -4,17 +4,14 @@
 /// @DnDArgument : "var" "invincible"
 /// @DnDArgument : "not" "1"
 /// @DnDArgument : "value" "true"
-if(!(invincible == true)){	/// @DnDAction : YoYo Games.Common.If_Variable
+if(!(invincible == true)){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 694E7204
+	/// @DnDHash : 19E0FFF1
 	/// @DnDParent : 0EE5B4CC
+	/// @DnDArgument : "expr" "-1"
+	/// @DnDArgument : "expr_relative" "1"
 	/// @DnDArgument : "var" "hp"
-	/// @DnDArgument : "value" "1"
-	if(hp == 1){	/// @DnDAction : YoYo Games.Rooms.Restart_Room
-		/// @DnDVersion : 1
-		/// @DnDHash : 5B83405B
-		/// @DnDParent : 694E7204
-		room_restart();}
+	hp += -1;
 
 	/// @DnDAction : YoYo Games.Audio.Play_Audio
 	/// @DnDVersion : 1.1
@@ -33,14 +30,6 @@ if(!(invincible == true)){	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDArgument : "soundid" "S_Agonie"
 	/// @DnDSaveInfo : "soundid" "S_Agonie"
 	audio_play_sound(S_Agonie, 0, 0, 1.0, undefined, 1.0);
-
-	/// @DnDAction : YoYo Games.Common.Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 19E0FFF1
-	/// @DnDParent : 0EE5B4CC
-	/// @DnDArgument : "expr" "1"
-	/// @DnDArgument : "var" "hp"
-	hp = 1;
 
 	/// @DnDAction : YoYo Games.Instances.Color_Sprite
 	/// @DnDVersion : 1
