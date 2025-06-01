@@ -4,7 +4,16 @@
 /// @DnDArgument : "var" "canjump"
 /// @DnDArgument : "not" "1"
 /// @DnDArgument : "value" "false"
-if(!(canjump == false)){	/// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
+if(!(canjump == false)){	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 3DA49515
+	/// @DnDParent : 0BEA62B5
+	/// @DnDArgument : "target_temp" "1"
+	/// @DnDArgument : "soundid" "S_Boing_1"
+	/// @DnDSaveInfo : "soundid" "S_Boing_1"
+	audio_play_sound(S_Boing_1, 0, 0, 1.0, undefined, 1.0);
+
+	/// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
 	/// @DnDVersion : 1
 	/// @DnDHash : 4BD180D5
 	/// @DnDParent : 0BEA62B5

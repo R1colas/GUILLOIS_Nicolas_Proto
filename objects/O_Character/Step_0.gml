@@ -124,15 +124,11 @@ if(hp <= 0){	/// @DnDAction : YoYo Games.Instances.If_Instance_Exists
 			/// @DnDSaveInfo : "soundid" "S_Background_Soundtrack"
 			audio_play_sound(S_Background_Soundtrack, 0, 1, 1.0, undefined, 1.0);}}
 
-	/// @DnDAction : YoYo Games.Common.Else
+	/// @DnDAction : YoYo Games.Rooms.Restart_Room
 	/// @DnDVersion : 1
-	/// @DnDHash : 2CD4EBFE
+	/// @DnDHash : 29C3424B
 	/// @DnDParent : 29C37266
-	else{	/// @DnDAction : YoYo Games.Rooms.Restart_Room
-		/// @DnDVersion : 1
-		/// @DnDHash : 29C3424B
-		/// @DnDParent : 2CD4EBFE
-		room_restart();}}
+	room_restart();}
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
@@ -515,11 +511,11 @@ var l12F4636D_0 = instance_place(x + 0, y + 1, [O_Pince_1G]);if ((l12F4636D_0 >
 	/// @DnDHash : 63CFF090
 	/// @DnDParent : 12F4636D
 	/// @DnDArgument : "x_relative" "1"
-	/// @DnDArgument : "y" "1"
+	/// @DnDArgument : "y" "-1"
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "object" "O_Pince_2G"
 	/// @DnDSaveInfo : "object" "O_Pince_2G"
-	var l63CFF090_0 = instance_place(x + 0, y + 1, [O_Pince_2G]);if ((l63CFF090_0 > 0)){	/// @DnDAction : YoYo Games.Common.Variable
+	var l63CFF090_0 = instance_place(x + 0, y + -1, [O_Pince_2G]);if ((l63CFF090_0 > 0)){	/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 212D92D5
 		/// @DnDParent : 63CFF090

@@ -61,4 +61,11 @@ if(!(invincible == true)){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDParent : 0EE5B4CC
 	/// @DnDArgument : "expr" "-50"
 	/// @DnDArgument : "var" "ysp"
-	ysp = -50;}
+	ysp = -50;
+
+	/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
+	/// @DnDVersion : 1
+	/// @DnDHash : 7A2C9F80
+	/// @DnDParent : 0EE5B4CC
+	/// @DnDArgument : "msg" "invincible"
+	show_debug_message(string(invincible));}

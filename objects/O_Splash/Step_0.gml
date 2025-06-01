@@ -1,5 +1,20 @@
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
+/// @DnDHash : 699DDC62
+/// @DnDArgument : "var" "O_Oeil.hp"
+/// @DnDArgument : "op" "4"
+/// @DnDArgument : "value" "3"
+if(O_Oeil.hp >= 3){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 7AD9DE1C
+	/// @DnDParent : 699DDC62
+	/// @DnDArgument : "spriteind" "S_Background_3"
+	/// @DnDSaveInfo : "spriteind" "S_Background_3"
+	sprite_index = S_Background_3;
+	image_index = 0;}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
 /// @DnDHash : 68633AFB
 /// @DnDArgument : "var" "O_Oeil.hp"
 /// @DnDArgument : "value" "2"

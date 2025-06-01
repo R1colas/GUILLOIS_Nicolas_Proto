@@ -8,7 +8,16 @@ var l324A9E3D_0;l324A9E3D_0 = mouse_check_button(mb_left);if (l324A9E3D_0){	
 	/// @DnDArgument : "var" "O_Oeil.invincible"
 	/// @DnDArgument : "not" "1"
 	/// @DnDArgument : "value" "true"
-	if(!(O_Oeil.invincible == true)){	/// @DnDAction : YoYo Games.Common.Variable
+	if(!(O_Oeil.invincible == true)){	/// @DnDAction : YoYo Games.Audio.Play_Audio
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 2792BE68
+		/// @DnDParent : 6FF8A6F2
+		/// @DnDArgument : "target_temp" "1"
+		/// @DnDArgument : "soundid" "S_Ouch"
+		/// @DnDSaveInfo : "soundid" "S_Ouch"
+		audio_play_sound(S_Ouch, 0, 0, 1.0, undefined, 1.0);
+	
+		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 6A976631
 		/// @DnDApplyTo : {O_Oeil}
