@@ -1,8 +1,8 @@
 /// @DnDAction : YoYo Games.Game.Save_Game
 /// @DnDVersion : 1
-/// @DnDHash : 44D8614D
-/// @DnDArgument : "filename" "O_Character.x and O_Character.y"
-game_save(O_Character.x and O_Character.y);
+/// @DnDHash : 5FBB1070
+/// @DnDArgument : "filename" ""x,y_1.dat""
+game_save("x,y_1.dat");
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1

@@ -1,9 +1,3 @@
-/// @DnDAction : YoYo Games.Game.Save_Game
-/// @DnDVersion : 1
-/// @DnDHash : 1E5F66CE
-/// @DnDArgument : "filename" "O_Timer.timer"
-game_save(O_Timer.timer);
-
 /// @DnDAction : YoYo Games.Rooms.Go_To_Room
 /// @DnDVersion : 1
 /// @DnDHash : 4896D1CD

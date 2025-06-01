@@ -30,14 +30,19 @@ var l2DD124F5_0;l2DD124F5_0 = keyboard_check(ord("R"));if (l2DD124F5_0){	///
 	/// @DnDVersion : 1
 	/// @DnDHash : 480CE376
 	/// @DnDParent : 2DD124F5
-	/// @DnDArgument : "var" "O_Checkpoint.checkpointpris"
+	/// @DnDArgument : "var" "O_Checkpoint.checkpointpris or O_Checkpoint_1.checkpointpris"
 	/// @DnDArgument : "value" "true"
-	if(O_Checkpoint.checkpointpris == true){	/// @DnDAction : YoYo Games.Game.Load_Game
+	if(O_Checkpoint.checkpointpris or O_Checkpoint_1.checkpointpris == true){	/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
-		/// @DnDHash : 24474CE7
+		/// @DnDHash : 3A0DA8BB
+		/// @DnDInput : 2
 		/// @DnDParent : 480CE376
-		/// @DnDArgument : "filename" "O_Character.x and O_Character.y"
-		game_load(O_Character.x and O_Character.y);}
+		/// @DnDArgument : "expr" "O_Checkpoint.x"
+		/// @DnDArgument : "expr_1" "O_Checkpoint.y"
+		/// @DnDArgument : "var" "x"
+		/// @DnDArgument : "var_1" "y"
+		x = O_Checkpoint.x;
+		y = O_Checkpoint.y;}
 
 	/// @DnDAction : YoYo Games.Rooms.Restart_Room
 	/// @DnDVersion : 1
@@ -64,10 +69,10 @@ if(hp <= 0){	/// @DnDAction : YoYo Games.Instances.If_Instance_Exists
 		/// @DnDArgument : "value" "true"
 		if(O_Checkpoint.checkpointpris == true){	/// @DnDAction : YoYo Games.Game.Load_Game
 			/// @DnDVersion : 1
-			/// @DnDHash : 670FB6FD
+			/// @DnDHash : 24CF1826
 			/// @DnDParent : 0D49EA3B
-			/// @DnDArgument : "filename" "O_Character.x and O_Character.y"
-			game_load(O_Character.x and O_Character.y);
+			/// @DnDArgument : "filename" ""x,y.dat""
+			game_load("x,y.dat");
 		
 			/// @DnDAction : YoYo Games.Audio.Pause_Audio
 			/// @DnDVersion : 1
@@ -101,10 +106,10 @@ if(hp <= 0){	/// @DnDAction : YoYo Games.Instances.If_Instance_Exists
 		/// @DnDArgument : "value" "true"
 		if(O_Checkpoint_1.checkpointpris == true){	/// @DnDAction : YoYo Games.Game.Load_Game
 			/// @DnDVersion : 1
-			/// @DnDHash : 495D3207
+			/// @DnDHash : 629C1054
 			/// @DnDParent : 448CF306
-			/// @DnDArgument : "filename" "O_Character.x and O_Character.y"
-			game_load(O_Character.x and O_Character.y);
+			/// @DnDArgument : "filename" ""x,y_1.dat""
+			game_load("x,y_1.dat");
 		
 			/// @DnDAction : YoYo Games.Audio.Pause_Audio
 			/// @DnDVersion : 1
